@@ -20,16 +20,13 @@ box-shadow: 0x 0px 10px 1px solid black;
     position: relative;
     right: 5px;
     bottom: 15px;
-    /* background-color: #ebebeb; */
     background-color: #e8bd46;
 height: 90px;
     color: black;
-    /* border: 1px solid #ebebeb; */
     border: 1px solid #e8bd46;
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-/* margin-bottom: -20px; */
     padding: 10px;
     font-size: 50px;
     margin-top: 10px;
@@ -62,26 +59,13 @@ outline: 0;
     outline: 0;
 }
 .btnC1 , .btnC2 , .btnC3 , .btnC4{
-    /* background-color: #20b2aa; */
     background-color: #e8bd46;
     border: 1px solid #e8bd46;
-    /* border: 1px solid #20b2aa; */
 }
 .btnC2{
-	/* background-color: #ffa500; */
-    /* border: 1px solid #ffa500; */
     font-size: 20px;
 
 }
-/* .btnC3{ */
-	/* background-color: #f08080; */
-    /* border: 1px solid #f08080; */
-/* } */
-/* .btnC4{ */
-	/* background-color: #7d93e0; */
-    /* border: 1px solid #7d93e0; */
-
-/* } */
 .btn{
     background-color: #ebebeb;
     margin: 20px;
@@ -94,18 +78,11 @@ font-weight: 600;
 }
 .btn:hover{
     transform: scale(1.1);
-    /* width: 40px; */
-    /* height: 40px; */
-    /* width: 35px; */
-    /* background-color: #d1d1d1; */
-    /* border: 1px solid #d1d1d1; */
-    /* border-radius:90px; */
     z-index: 2;
 color: black;
 }
 .btnC5 , .btnC6 , .btnC7 , .btnC8{
     background-color: #ebebeb;
-    
     border: 1px solid #ebebeb;
     padding: 30px;
     transition: 0.5s;
@@ -119,7 +96,11 @@ color: black;
 .btnC5:focus , .btnC6:focus , .btnC7:focus , .btnC8:focus{
     outline: 0;
 }
-
+#back{
+    position: relative;
+    padding: 25px;
+    font-size: 20px;
+}
 
 .halfBtn{
     background-color: #ebebeb;
